@@ -34,6 +34,6 @@ Gem::Specification.new do |spec|
     "lib/**/*"
   ]
   spec.test_files = spec.files.grep %r{^(test|spec|features)/}
-  spec.add_development_dependency "bundler", "~> 2.4"
+  spec.add_development_dependency "bundler", ">= 2.4"
   spec.add_development_dependency "test-unit", "~> 3.6"
 end
